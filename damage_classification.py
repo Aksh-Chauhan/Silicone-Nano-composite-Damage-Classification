@@ -16,9 +16,9 @@ from sklearn.metrics import accuracy_score, precision_recall_fscore_support, con
 
 # --- 1. CONFIGURATION & DATA MAP ---
 DATA_MAP = {
-    'testo_c0_50': (0, 50), 'testo_65_virgin': (0, 65), 'testo_80_virgin': (0, 80), 'testo_100_virgin': (0, 95),
-    'testo_c10_50': (10, 50), 'testo_65_c_10': (10, 65), 'testo_80_c_10': (10, 80), 'testo_100_c_10': (10, 95),
-    'testo_c15_50': (15, 50), 'testo_65_c_15': (15, 65), 'testo_80_c_15': (15, 80), 'testo_100_c_15': (15, 95)
+    'testo_50_virgin': (0, 50), 'testo_65_virgin': (0, 65), 'testo_80_virgin': (0, 80), 'testo_95_virgin': (0, 95),
+    'testo_50_c_10': (10, 50), 'testo_65_c_10': (10, 65), 'testo_80_c_10': (10, 80), 'testo_95_c_10': (10, 95),
+    'testo_50_c_15': (15, 50), 'testo_65_c_15': (15, 65), 'testo_80_c_15': (15, 80), 'testo_95_c_15': (15, 95)
 }
 
 def natural_sort(l): 
