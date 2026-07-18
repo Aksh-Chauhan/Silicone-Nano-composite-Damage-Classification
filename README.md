@@ -14,3 +14,6 @@ Unlike pure classification architectures, this framework employs an unsupervised
 
 **Comprehensive Validation Split:** Evaluates performance via both a global Stratified 5-Fold Cross-Validation wrapper (for dataset resilience check) and a 20% stratified holdout split (for localized confusion matrices and evaluation metrics).
 
+## Processing Pipeline Architecture
+
+<img width="682" height="516" alt="Screenshot 2026-07-18 at 7 10 29 PM" src="https://github.com/user-attachments/assets/b61da427-f685-4839-8935-aab38c52e1ed" />
